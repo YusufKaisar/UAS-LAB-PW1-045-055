@@ -1,0 +1,59 @@
+.home {
+    padding: 40px 0 15px 0;
+    justify-content: center;
+    text-align: center;
+}
+
+.home p {
+    font-size: 20px;
+}
+
+.home h1 {
+    font-size: 30px;
+}
+
+.text-2 span {
+
+    color: #ffc107;
+}
+
+/* Tambahkan CSS berikut di dalam tag <style> atau dalam file eksternal style.css */
+.navbar-nav .nav-link:hover {
+    color: #ffffff; /* Warna teks pada hover */
+}
+
+/* Opsi: Untuk menambahkan efek underline pada hover */
+.navbar-nav .nav-link:hover {
+    text-decoration: underline;
+    transition: 1s;
+}
+
+
+/* Tentang Kami */
+.custom-mb {
+    margin-bottom: 20px; /* Ganti nilai sesuai kebutuhan Anda */
+  }
+
+  .right-links a{
+    padding: 0 10px;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+.main-box{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+.main-box .top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.bottom{
+    width: 100%;
+    margin-top: 20px;
+}
